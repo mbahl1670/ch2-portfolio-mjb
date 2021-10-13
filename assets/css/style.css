@@ -1,0 +1,48 @@
+/* remove the built in margin and padding using a universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER STYLES START */
+header {
+    background-color: #1b50d7;
+    opacity: 0.8;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #1b50d7 10px ), repeating-linear-gradient( #107a1f55, #107a1f );
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0;
+}  
+
+header a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav ul li {
+    padding: 10px 40px;
+    font-weight: lighter;
+    font-size: 1.5vw;
+}
+
+/* HEADER STYLES END */
