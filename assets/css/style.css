@@ -124,7 +124,19 @@ body {
     margin-bottom: 25px;
 }
 
+.projects {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .project1 {
     background-image: url("../images/hero-bg.jpg");
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 200px;
+    width: 400px    ;
 }
