@@ -46,12 +46,16 @@ header nav ul li {
 }
 /* HEADER STYLES END */
 
+body {
+    background-color: #1b50d7;
+}
+
+/* HERO STYLES START */
 .hero {
     display: flex;
     flex-wrap:nowrap;
     justify-content: space-between;
     height: 400px;
-    background-color: #1b50d7;
     max-height: 100%;
 }
 
@@ -76,4 +80,51 @@ header nav ul li {
 .hero h3 {
     font-style: italic;
     color: rgba(255, 255, 255, .5);
+}
+/* HERO STYLES END */
+
+/* ABOUT ME STYLES START */
+#about-me {
+    text-align: center;
+    border: 3px solid;
+}
+
+#about-me h2 {
+    font-size: 55px;
+    color: black;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: yellow;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+#about-me p {
+      margin: 0 auto;
+      width: 70%;
+      line-height: 1.7;
+      font-size: 20px;
+      color: yellowgreen;
+      margin-bottom: 20px;
+}
+/* ABOUT ME STYLES END */
+
+/* WORK STYLES START */
+#work h2 {
+    font-size: 55px;
+    color: black;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.project1 {
+    background-image: url("../images/hero-bg.jpg");
+    background-size: contain;
 }
