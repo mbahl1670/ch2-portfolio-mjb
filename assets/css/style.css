@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url("../images/bush.png");
+}
+
 /* HEADER STYLES START */
 header {
     background-color: #1b50d7;
@@ -46,10 +50,6 @@ header nav ul li {
 }
 /* HEADER STYLES END */
 
-body {
-    background-color: #1b50d7;
-}
-
 /* HERO STYLES START */
 .hero {
     display: flex;
@@ -63,80 +63,143 @@ body {
     height: 400px;
 }
 
-.subtitle {
-    display: flex;
-    flex-direction: column;
+.about-me {
     text-align: center;
-    text-align: center;
-    padding: 100px 0 100px 325px;
+    border: 3px solid;
+    padding: 0 0 5px 5px;
 }
 
-.hero h2 {
-    font-size: 50px;
-    font-style: italic;
-    color: white;
+.about-me h2 {
+    font-size: 55px;
+    color: black;
+    padding: 20px 100px 20px 100px;
+    border-bottom: 3px solid black;
+    width: 70%;
+    margin: 0 auto;
 }
 
-.hero h3 {
-    font-style: italic;
-    color: rgba(255, 255, 255, .5);
+.about-me p {
+      margin: 0 auto;
+      padding: 20px;
+      width: 75%;
+      line-height: 1.2;
+      font-size: 20px;
+      color: black;
+      margin-bottom: 20px;
 }
 /* HERO STYLES END */
 
-/* ABOUT ME STYLES START */
-#about-me {
-    text-align: center;
-    border: 3px solid;
-}
-
-#about-me h2 {
-    font-size: 55px;
-    color: black;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: yellow;
-    width: 70%;
-    margin: 0 auto;
-    margin-top: 25px;
-}
-
-#about-me p {
-      margin: 0 auto;
-      width: 70%;
-      line-height: 1.7;
-      font-size: 20px;
-      color: yellowgreen;
-      margin-bottom: 20px;
-}
-/* ABOUT ME STYLES END */
 
 /* WORK STYLES START */
-#work h2 {
-    font-size: 55px;
-    color: black;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    width: 70%;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.work h2 {
+    padding: 0 10px;
+    font-size: 45px;
+    margin: 10px;
 }
 
 .projects {
-    width: 100%;
-    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    width: 80%;
+    margin: 15px;
 }
 
-.project1 {
-    background-image: url("../images/hero-bg.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100% 100%;
-    height: 200px;
-    width: 400px    ;
+.project {
+    width: 450px;
+    height: 300px;
+    border: 5px solid yellow;
+    margin: 20px;
+    border-radius: 35px;
+    padding: 20px;
+    font-size: 30px;
 }
+
+.project-text h3, h4 {
+    display: block;
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(100, 0, 100);
+}
+
+.projects a {
+    text-decoration: none;
+}
+
+#project1 {
+    width: 1020px;
+    height: 450px;
+    background-image: url("../images/hero-bg.jpg");
+    background-position: center;
+    background-size: contain;
+    font-size: 60px;
+}
+
+#project2 {
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-position: center;
+    background-size: contain;
+}
+
+#project3 {
+    background-image: url("../images/wormz.png");
+    background-position: center;
+    background-size: contain;
+}
+
+#project4 {
+    background-image: url("../images/more-leaves-on-green.png");
+    background-position: center;
+    background-size: contain;
+}
+
+#project5 {
+    background-image: url("../images/oriental-tiles.png");
+    background-position: center;
+    background-size: contain;
+}
+/* WORK STYLES END */
+
+
+/* CONTACT ME STYLES START */
+.contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 5px 0 0 0;
+    background-color: lightblue;
+}
+
+.contact-me h2 {
+    padding: 0 10px;
+    font-size: 45px;
+    margin: 10px;
+}
+
+.contact-me nav {
+    width: 80%;;
+    margin-top: 10px;
+}
+
+.contact-me ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin: 5px 10px;
+    font-size: 25px;
+}
+
+.contact-me a {
+    text-decoration: none;
+    color: black;
+}
+/* CONTACT ME STYLES END */
