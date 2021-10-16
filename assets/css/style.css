@@ -7,6 +7,7 @@
 
 body {
     /* background-image: url("../images/bush.png"); */
+    background-color: ivory;
 }
 
 /* HEADER STYLES START */
@@ -74,7 +75,6 @@ header nav ul li {
     max-height: 20%;
     background-color: rgba(0, 0, 14, .8);
     border-radius: 15px;
-    width: 100%;
     padding: 15px 14px;
     align-items: center;
     justify-content: center;
@@ -93,7 +93,7 @@ header nav ul li {
 .section-title {
     padding: 20px 10px;
     font-size: 45px;
-    width: 20%;
+    flex: 1 20%;
 }
 
 
@@ -102,6 +102,10 @@ header nav ul li {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
+
+.about-me h2 {
+    text-align: right;
 }
 
 .me-text {
@@ -129,30 +133,57 @@ header nav ul li {
     align-items: center;
 }
 
+.work h2 {
+    text-align: right;
+}
+
 .projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 80%;
+    flex: 1 80%;
     border-left: 2px solid black;
 }
 
+
 .project {
-    width: 450px;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    width: 500px;
     height: 300px;
     border: 5px solid yellow;
     margin: 20px;
     border-radius: 35px;
     padding: 20px;
-    font-size: 30px;
 }
 
-.project-text h3, h4 {
-    display: block;
-    text-align: right;
+.project-heading {
+    padding: 5px;
+    height: fit-content;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 240, .5);
+    font-size: medium;
+    border: 1px solid black;
+}
+
+.project-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
     font-style: italic;
     font-weight: bold;
-    color: rgb(100, 0, 100);
+    color: rgb(50, 0, 50);
+}
+
+.project-text h3 {
+    font-weight: bolder;
+}
+
+.project-text h4 {
+    font-weight: lighter;
 }
 
 .projects a {
@@ -160,36 +191,34 @@ header nav ul li {
 }
 
 #project1 {
-    width: 1020px;
-    height: 450px;
     background-image: url("../images/hero-bg.jpg");
     background-position: center;
-    background-size: contain;
-    font-size: 60px;
+    background-size: cover;
+    flex: 1 80%;
 }
 
 #project2 {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 
 #project3 {
-    background-image: url("../images/wormz.png");
+    background-image: url("../images/bush.png");
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 
 #project4 {
     background-image: url("../images/more-leaves-on-green.png");
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 
 #project5 {
     background-image: url("../images/oriental-tiles.png");
     background-position: center;
-    background-size: contain;
+    background-size: cover; 
 }
 /* WORK STYLES END */
 
@@ -200,6 +229,10 @@ header nav ul li {
     flex-wrap: wrap;
     justify-content: center;
 
+}
+
+.contact-me h2 {
+    text-align: right;
 }
 
 .contact-me nav {
@@ -216,10 +249,12 @@ header nav ul li {
     padding: 5px;
     margin: 5px 10px;
     font-size: 25px;
+    list-style: none;
 }
 
 .contact-me a {
     text-decoration: none;
     color: black;
+    border-bottom: 4px solid darkslategrey;
 }
 /* CONTACT ME STYLES END */
