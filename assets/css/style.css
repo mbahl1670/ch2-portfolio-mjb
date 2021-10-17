@@ -91,6 +91,7 @@ header nav ul li {
 /* HERO STYLES END */
 
 .section-title {
+    /* width: 20%; */
     padding: 20px 10px;
     font-size: 45px;
     flex: 1 20%;
@@ -109,7 +110,8 @@ header nav ul li {
 }
 
 .me-text {
-    width: 80%;
+    /* width: 80%; */
+    flex: 1 80%;
     background-color: rgba(100, 149, 237, .2);
     border-left: 2px solid black;
 }
@@ -128,7 +130,7 @@ header nav ul li {
 /* WORK STYLES START */
 .work {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
 }
@@ -138,6 +140,7 @@ header nav ul li {
 }
 
 .projects {
+    /* width: 80%; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -194,31 +197,35 @@ header nav ul li {
     background-image: url("../images/hero-bg.jpg");
     background-position: center;
     background-size: cover;
-    flex: 1 80%;
+    flex: 5 900px;
 }
 
 #project2 {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-position: center;
     background-size: cover;
+    flex: 0 450px;
 }
 
 #project3 {
     background-image: url("../images/bush.png");
     background-position: center;
     background-size: cover;
+    flex: 0 450px;
 }
 
 #project4 {
     background-image: url("../images/more-leaves-on-green.png");
     background-position: center;
     background-size: cover;
+    flex: 0 450px;
 }
 
 #project5 {
     background-image: url("../images/oriental-tiles.png");
     background-position: center;
     background-size: cover; 
+    flex: 0 450px;
 }
 /* WORK STYLES END */
 
@@ -236,7 +243,8 @@ header nav ul li {
 }
 
 .contact-me nav {
-    width: 80%;
+    /* width: 80%; */
+    flex: 1 80% ;
     align-self: center;
     flex-wrap: wrap;
     border-left: 2px solid black;
