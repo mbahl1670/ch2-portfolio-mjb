@@ -10,6 +10,13 @@ body {
     background-color: ivory;
 }
 
+.section-title {
+    /* width: 20%; */
+    padding: 20px 10px;
+    font-size: 45px;
+    flex: 1 20%;
+}
+
 /* HEADER STYLES START */
 header {
     background-color: #1b50d7;
@@ -51,6 +58,7 @@ header nav ul li {
 }
 /* HEADER STYLES END */
 
+
 /* HERO STYLES START */
 .hero {
     display: flex;
@@ -62,11 +70,6 @@ header nav ul li {
 
 .hero img {
     height: 100%;
-}
-
-.flexrow {
-    display: flex;
-    align-items: flex-end;
 }
 
 .subtitle {
@@ -87,17 +90,10 @@ header nav ul li {
     font-weight: bold;
     color: goldenrod;
 }
-
 /* HERO STYLES END */
 
-.section-title {
-    /* width: 20%; */
-    padding: 20px 10px;
-    font-size: 45px;
-    flex: 1 20%;
-}
 
-
+/* ABOUT ME STYLES START */
 .about-me {
     display: flex;
     flex-wrap: wrap;
@@ -110,7 +106,6 @@ header nav ul li {
 }
 
 .me-text {
-    /* width: 80%; */
     flex: 1 80%;
     background-color: rgba(100, 149, 237, .2);
     border-left: 2px solid black;
@@ -125,12 +120,13 @@ header nav ul li {
     font-weight: bold;
     font-style: oblique;
   }
+/* ABOUT ME STYLES END */
 
 
 /* WORK STYLES START */
 .work {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -140,14 +136,12 @@ header nav ul li {
 }
 
 .projects {
-    /* width: 80%; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     flex: 1 80%;
     border-left: 2px solid black;
 }
-
 
 .project {
     display: flex;
@@ -182,10 +176,12 @@ header nav ul li {
 }
 
 .project-text h3 {
+    font-size: 25px;
     font-weight: bolder;
 }
 
 .project-text h4 {
+    font-size: 15px;
     font-weight: lighter;
 }
 
@@ -193,41 +189,47 @@ header nav ul li {
     text-decoration: none;
 }
 
+/* SPECIFIC PROJECTS STYLES */
 #project1 {
     background-image: url("../images/hero-bg.jpg");
     background-position: center;
     background-size: cover;
-    flex: 5 900px;
+    width: 700px;
+    height: 500px;
+}
+
+#project1 h3 {
+    font-size: 45px;
+}
+
+#project1 h4 {
+    font-size: 35px;
 }
 
 #project2 {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-position: center;
     background-size: cover;
-    flex: 0 450px;
 }
 
 #project3 {
     background-image: url("../images/bush.png");
     background-position: center;
     background-size: cover;
-    flex: 0 450px;
 }
 
 #project4 {
     background-image: url("../images/more-leaves-on-green.png");
     background-position: center;
     background-size: cover;
-    flex: 0 450px;
 }
 
 #project5 {
     background-image: url("../images/oriental-tiles.png");
     background-position: center;
     background-size: cover; 
-    flex: 0 450px;
 }
-/* WORK STYLES END */
+/* WORK STYLES END & PROJECT STYLES END */
 
 
 /* CONTACT ME STYLES START */
@@ -243,7 +245,6 @@ header nav ul li {
 }
 
 .contact-me nav {
-    /* width: 80%; */
     flex: 1 80% ;
     align-self: center;
     flex-wrap: wrap;
@@ -266,3 +267,10 @@ header nav ul li {
     border-bottom: 4px solid darkslategrey;
 }
 /* CONTACT ME STYLES END */
+
+
+/* UTILITY STYLES */
+.flexrow-end {
+    display: flex;
+    align-items: flex-end;
+}
