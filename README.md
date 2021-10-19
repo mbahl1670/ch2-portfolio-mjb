@@ -16,6 +16,7 @@
 * WHEN the page is resized or viewed on various screens and devices layout is responspive and adapts to the viewport
 
 ## Screenshot of the Application
+![MJBportfolio](https://user-images.githubusercontent.com/90292697/137936685-3eb9348c-ce37-4d11-b9b6-948192060182.png)
 
 
 ## Git Repository
