@@ -20,10 +20,15 @@
 
 
 ## Git Repository
-
+https://github.com/mbahl1670/ch2-portfolio-mjb
 
 ## Website
-
+https://mbahl1670.github.io/ch2-portfolio-mjb/
 
 
 ## How this was accomplished
+* used wireframing to plan out html file for the site
+* wrote html file to include a self-photo, links to different parts of the site, and contact info
+* created image links to different projects
+* wrote css code to ensure 1st project is always bigger than the rest of the projects
+* wrote media queries to make site more responsive for different sized screens
