@@ -8,6 +8,7 @@
 body {
     /* background-image: url("../images/bush.png"); */
     background-color: ivory;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .section-title {
@@ -15,6 +16,7 @@ body {
     padding: 20px 10px;
     font-size: 45px;
     flex: 1 20%;
+    text-shadow: 0 0 2px rgb(133, 6, 133);
 }
 
 /* HEADER STYLES START */
@@ -26,12 +28,16 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 header h1 {
     font-weight: bold;
     font-size: 50px;
     margin: 0;
+    text-shadow: 0 0 5px rgb(50, 0, 50);
 }  
 
 header a {
@@ -49,6 +55,7 @@ header nav ul {
     flex-wrap: wrap;
     justify-content: flex-end;
     list-style: none;
+    text-shadow: 0 0 2px rgb(50, 0, 50);
 }
 
 header nav ul li {
@@ -56,6 +63,11 @@ header nav ul li {
     font-weight: lighter;
     font-size: 30px;
 }
+
+header nav ul li a:hover {
+    color: yellow;
+    text-shadow: none;
+  }
 /* HEADER STYLES END */
 
 
@@ -156,7 +168,7 @@ header nav ul li {
 }
 
 .project-heading {
-    padding: 5px;
+    padding: 5px 20px;
     height: fit-content;
     border-radius: 5px;
     background-color: rgba(255, 255, 240, .5);
@@ -266,6 +278,11 @@ header nav ul li {
     color: black;
     border-bottom: 4px solid darkslategrey;
 }
+
+.contact-me nav ul li a:hover {
+    color: #6f00ff;
+    text-shadow: none;
+  }
 /* CONTACT ME STYLES END */
 
 
