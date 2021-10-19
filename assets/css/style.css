@@ -278,35 +278,14 @@ header nav ul li {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-    .section-title{
-        font-size: 40px;
-    }
-}
-
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px) {
-/* this will be applied on any screen between 768px and 575px */
     header {
         padding-bottom: 0;
         justify-content: center;
         position: relative;
     }
 
-    header h1 {
-        width: 100%;
-        text-align: center;
-    }
-
-    header nav ul {
-        margin-top: 20px;
-        width: 100%;
-        justify-content: space-evenly;
-    }
-
-    header nav ul li {
-        padding: 10px 30px;
-        font-weight: lighter;
-        font-size: 30px;
+    .section-title{
+        font-size: 40px;
     }
 
     .section-title {
@@ -331,15 +310,59 @@ header nav ul li {
         flex: 1 100%;
         border-left: none;
     }
-
+    
     .contact-me h2 {
         text-align: center;
     }
 
     .contact-me nav {
-        flex: 1 100%;
         border-left: none;
     }
+
+
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+/* this will be applied on any screen between 768px and 575px */
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    header nav ul li {
+        padding: 10px 30px;
+        font-weight: lighter;
+        font-size: 30px;
+    }
+
+    .hero {
+        height: 250px;
+    }
+
+
+    .project {
+        width: 440px;
+        height: 270px;
+    }
+
+    
+    #project1 {
+        width: 575px;
+        height: 425px;
+    }
+
+    .contact-me li {
+        font-size: 18px;
+    }
+
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
@@ -353,22 +376,18 @@ header nav ul li {
         font-size: 20px;
     }
 
-    .flexrow-end {
-        
-    }
-
-    .project {
-        width: 400px;
+     .project {
+        width: 380px;
         height: 240px;
     }
 
     #project1 {
-        width: 490px;
+        width: 425px;
         height: 350px;
     }
 
     .contact-me li {
-        font-size: 18px;
+        font-size: 15px;
     }
     
     .subtitle {
@@ -377,6 +396,10 @@ header nav ul li {
 
     .flexrow-end {
         margin-right: 10px;
+    }
+/* All new stuff added after here */
+    .hero {
+        height: 200px;
     }
 
 
