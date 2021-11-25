@@ -204,7 +204,7 @@ header nav ul li a:hover {
 
 /* SPECIFIC PROJECTS STYLES */
 #project1 {
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url("../images/memeify.png");
     background-position: center;
     background-size: cover;
     width: 700px;
@@ -220,25 +220,25 @@ header nav ul li a:hover {
 }
 
 #project2 {
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../images/weatherDashboard.png");
     background-position: center;
     background-size: cover;
 }
 
 #project3 {
-    background-image: url("../images/bush.png");
+    background-image: url("../images/scheduler.png");
     background-position: center;
     background-size: cover;
 }
 
 #project4 {
-    background-image: url("../images/more-leaves-on-green.png");
+    background-image: url("../images/quiz.png");
     background-position: center;
     background-size: cover;
 }
 
 #project5 {
-    background-image: url("../images/oriental-tiles.png");
+    background-image: url("../images/passwordGenerator.png");
     background-position: center;
     background-size: cover; 
 }
