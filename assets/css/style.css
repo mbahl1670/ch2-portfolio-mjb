@@ -204,7 +204,7 @@ header nav ul li a:hover {
 
 /* SPECIFIC PROJECTS STYLES */
 #project1 {
-    background-image: url("../images/memeify.png");
+    background-image: url("../images/dpTracker.png");
     background-position: center;
     background-size: cover;
     width: 700px;
@@ -220,28 +220,35 @@ header nav ul li a:hover {
 }
 
 #project2 {
-    background-image: url("../images/weatherDashboard.png");
+    background-image: url("../images/memeify.png");
     background-position: center;
     background-size: cover;
 }
 
 #project3 {
-    background-image: url("../images/scheduler.png");
+    background-image: url("../images/weatherDashboard.png");
     background-position: center;
     background-size: cover;
 }
 
 #project4 {
-    background-image: url("../images/quiz.png");
+    background-image: url("../images/scheduler.png");
     background-position: center;
     background-size: cover;
 }
 
 #project5 {
+    background-image: url("../images/quiz.png");
+    background-position: center;
+    background-size: cover;
+}
+
+/* OLD PROJECT
+#project5 {
     background-image: url("../images/passwordGenerator.png");
     background-position: center;
     background-size: cover; 
-}
+} */
 /* WORK STYLES END & PROJECT STYLES END */
 
 
